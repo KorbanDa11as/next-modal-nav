@@ -4,6 +4,7 @@ export default async function PhotoPage({
 }: {
   params: Promise<{ id: string }>;
 }) {
-  console.log(`photos/first/second`)
-  return <ContentPage back="/photos/first" id='second' subPage='/photos/first/second/third' />;
+  const id = Number((await params).id);
+  console.log(`photos/first`);
+  return <ContentPage id="first" subPage="/photos/first/second" />;
 }
