@@ -10,6 +10,9 @@ export default function Page() {
           {id}
         </Link>
       ))}
+      <Link className="card" href={`/photos/first`} passHref>
+        first
+      </Link>
     </section>
   );
 }

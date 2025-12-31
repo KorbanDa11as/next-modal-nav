@@ -3,10 +3,16 @@ body {
     Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
+* {
+  background-color: black;
+
+}
+
 body,
 html {
   height: 100%;
   margin: 0;
+  background-color: black;
 }
 
 .modal-backdrop {
@@ -47,13 +53,15 @@ html {
   height: 48px;
   background-color: transparent;
   border: none;
-  border-radius: 15px; /* Circular shape */
+  border-radius: 15px;
+  /* Circular shape */
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 500;
-  font-size: 24px; /* Adjust font size as needed */
+  font-size: 24px;
+  /* Adjust font size as needed */
 }
 
 .close-button:hover {

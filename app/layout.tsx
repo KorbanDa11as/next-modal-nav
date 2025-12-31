@@ -13,9 +13,9 @@ export default function RootLayout(props: {
   return (
     <html>
       <body>
+        <div id="modal-root" />
         {props.children}
         {props.modal}
-        <div id="modal-root" />
       </body>
     </html>
   );
